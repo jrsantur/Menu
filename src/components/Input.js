@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Context } from "../Context";
 
 export default function Input({ type, name, index }) {
-  const [items, updateItem] = useContext(Context);
+  const [updateItem] = useContext(Context);
 
   return (
     <input
